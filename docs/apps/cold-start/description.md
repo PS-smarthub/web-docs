@@ -4,6 +4,8 @@ sidebar_position: 1
 title: "Descrição"
 ---
 
+![Logo Cold Start](https://github.com/PS-Smart-Hub/web-docs/blob/main/static/img/COLD_START.svg)
+
 É uma ferramenta para gerenciamento de contêineres de refrigeração da Power Solutions na planta Bosch de Campinas, que são utilizados para refrigerar o combustível e o óleo dos carros de teste utilizados pela área.
 
 Com o Cold Start, é possível visualizar as temperaturas dos carros alocados em cada um dos contêineres, assim como definir uma temperatura desejada, para que o usuário seja alertado quando essa temperatura for atingida, também é possível realizar o agendamento para a utilização dos contêineres.
