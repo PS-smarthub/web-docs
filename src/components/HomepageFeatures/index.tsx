@@ -10,32 +10,35 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Smart Hub',
+    Svg: require('@site/static/img/SMART_HUB.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Smart Hub é uma plataforma para desenvolvimento e utilização de aplicações
+        dentro da PS/SC, com objetivo de trazer mais facilidade para os colaboradores 
+        no dia-a-dia de trabalho.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Cold Start',
+    Svg: require('@site/static/img/COLD_START.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Cold Start é a primeira aplicação dentro da plataforma desenvolvida, dessa forma,
+        ambas se complementam dentro do desenvolvimento de noso TCC. Nossa aplicação é uma
+        maneira mais prática e eficiente de gerenciar os contêineres de refrigeração da PS.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Powered by DTA',
+    Svg: require('@site/static/img/Digital_Talent_Academy.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        O Digital Talent Academy é o programa de desenvolvimento de novos profissionais para a área
+        de Tecnologia dentro da Bosch, ele é realizado com Aprendizes da CaP/ETS. Os seus alunos possuem ums formação 
+        técnica fornecida pelo SENAI e aprendizado prático dentro da Bosch.
       </>
     ),
   },
