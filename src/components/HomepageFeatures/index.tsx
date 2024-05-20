@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Powered by DTA',
-    Svg: require('@site/static/img/Digital_Talent_Academy.svg').default,
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
         O Digital Talent Academy é o programa de desenvolvimento de novos profissionais para a área
