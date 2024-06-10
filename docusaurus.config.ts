@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Smart Hub',
+  title: 'Smarthub',
   tagline: 'Plataforma de Digitalização para a PS',
   favicon: 'img/favicon.ico',
 
@@ -15,7 +15,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'PS-Smart-Hub', // Usually your GitHub org/user name.
+  organizationName: 'PS-smarthub', // Usually your GitHub org/user name.
   projectName: 'smarthub', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/PS-Smart-Hub',
+            'https://github.com/PS-smarthub',
         },
         
         theme: {
@@ -50,11 +50,11 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/SMART_HUB.svg',
     navbar: {
-      title: 'Smart Hub',
+      title: 'Smarthub',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Smarthub logo',
         src: 'img/SMART_HUB.png',
       },
       items: [
@@ -65,7 +65,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/PS-Smart-Hub',
+          href: 'https://github.com/PS-smarthub',
           label: 'GitHub',
           position: 'right',
         },
@@ -78,8 +78,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Introdução',
+              to: '/docs/category/introdução',
             },
           ],
         },
@@ -87,12 +87,8 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/orgs/PS-Smart-Hub/repositories',
+              href: 'https://github.com/orgs/PS-smarthub/repositories',
             },
           ],
         },
